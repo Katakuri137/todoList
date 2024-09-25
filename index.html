@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="video-container">
+        <video id="background-video" loop muted autoplay>
+            <source src="./assets/vidéo/video.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la balise vidéo.
+        </video>
+    </div>
+
+    <div class="menu">
+        <div class="container">
+            <header>
+                <h1>Ma liste de tâches</h1>
+                <p>Ajoutez et gérez vos tâches ci-dessous</p>
+            </header>
+            <div class="input-section">
+                <input type="text" id="taskInput" placeholder="Ajouter une tâche...">
+                <button id="addButton">Ajouter</button>
+            </div>
+            <ul class="task-list" id="taskList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
